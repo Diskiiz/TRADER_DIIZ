@@ -1,0 +1,25 @@
+@layer reset, base, tokens, recipes, utilities;
+@import "@serendie/ui/styles.css";
+
+/* ── ベースリセット ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, 'Hiragino Sans', sans-serif;
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── アプリ全体レイアウト ── */
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
