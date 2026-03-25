@@ -1,1 +1,1 @@
-{"root":["./functions/api/gnews.ts"],"version":"5.9.3"}
+{"root":["./worker.ts"],"version":"5.9.3"}
